@@ -1,0 +1,36 @@
+html,body {
+	
+font-family: cursive;
+font-size: 18px;
+color: white;
+background: url(../images/fond.jpg) no-repeat center fixed; 
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardis?*/
+margin:0;
+padding:0;
+height:100%;
+
+  
+}
+
+h2, #bas {
+    
+text-align: center;
+    
+    
+    
+}
+
+
+
+
+.lien {
+	
+	
+    color: orange;
+  	
+}
+
+.lien:hover { color: white; }

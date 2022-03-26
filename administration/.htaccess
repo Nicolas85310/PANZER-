@@ -1,0 +1,9 @@
+
+		AuthType Basic 
+
+		AuthName "Accès sécurisé par un mot de passe:" 
+
+		Require valid-user 
+
+		AuthUserFile "C:\wamp64\www\Panzer\administration\user.txt" 
+ 

@@ -1,0 +1,119 @@
+html,body {
+text-align: center;	
+color: #FFFFFF;
+background: url(../images/fond.jpg) no-repeat center fixed; 
+
+
+}
+#monForm
+{       margin:auto;
+	width: 40%;
+}
+
+#monForm p
+{
+	margin: 2px 0;
+}
+
+/* fieldset , legend */
+#monForm fieldset
+{
+	margin-bottom: 10px;
+	border: #CCC 1px solid;
+}
+
+
+#monForm fieldset legend
+{
+	padding: 0 10px;
+	border-left: #CCC 1px solid;
+	border-right: #CCC 1px solid;
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+
+
+/* Label */
+#monForm label
+{
+	background-color: #FFCC66;
+	display: block;
+	width: 39%;
+	float: left;
+	padding-right: 1%;
+	text-align: right;
+	color: #060606;
+	letter-spacing: 1px;
+}
+
+#monForm label:hover
+{
+	font-weight: bold;
+}
+
+#monForm .form_label_nostyle
+{
+	background: none;
+}
+
+
+/* Input */
+#monForm input, #monForm select
+{
+	margin-left: 1%;
+	width: 58%;
+	border: #CCC 1px solid;
+}
+
+#monForm input:hover, #monForm select:hover, #monForm input:focus, #monForm select:focus
+{
+	border: #999 1px solid;
+	background-color: #DDEEFF;
+}
+
+#monForm .form_input_day_month
+{
+	width: 3%;
+}
+
+#monForm .form_input_year
+{
+	width: 6%;
+}
+
+
+/* button submit */
+#monForm input[type="submit"]
+{
+	border: #DDEEFF 1px solid;
+	width: 27%;
+}
+
+#monForm input[type="submit"]:hover
+{
+	background-color: #66CC33;
+	cursor: pointer;
+}
+
+#monForm input[type="reset"]
+{
+	border: #DDEEFF 1px solid;
+	width: 27%;
+}
+
+#monForm input[type="reset"]:hover
+{
+	background-color: #E6484D;
+	cursor: pointer;
+}
+
+table
+{
+margin: auto;
+
+}
+td 
+{
+text-align :center;
+border: 1px solid orange;
+}

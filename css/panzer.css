@@ -1,0 +1,485 @@
+html,body {
+	
+font-family: cursive;
+font-size: 18px;
+background: url(../images/fond.jpg) no-repeat center fixed; 
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardis?*/
+margin:0;
+padding:0;
+height:100%;
+
+  
+}
+
+#container {
+    
+    max-width:1400px;
+    margin:auto;
+    position:relative;
+    min-height: 100%;
+	border: solid 1px ;
+	border-top: solid 2px;
+	border-bottom: solid 3px;
+	color: #6d4803;
+}
+
+/*#container div {border: solid 1px;color: black;}*/
+
+#header {
+	
+    height: 160px;
+	
+}
+
+
+
+#logo {
+    
+	
+    position:relative;
+    top: -50px;
+    float:left;
+    max-width:200px;
+	height:160px;
+	
+	
+}
+
+#titre {
+	
+    margin-top: 50px;
+    text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	
+}
+
+
+#connexion {
+	
+    position:relative;
+    top: -110px;
+    float:right;
+    max-width:190px;
+	height:160px;
+	margin-right: 2px;
+}
+
+.avatar {
+	
+    position:relative;
+    max-width: 30%;
+    height: auto;
+    top: 0px;
+    left: 70px;
+}	
+
+.avatarcom {
+	
+    position:relative;
+    max-width: 65px;
+    height: auto;
+    
+}	
+
+.login {
+	
+    position:relative;
+    background-color: #E1F5A9;
+    width:100px;
+    height:12px;
+    top: -92px;
+    left: 70px;
+}	
+		
+.mdp {
+	
+    position:relative;
+    background-color: #E1F5A9;
+    width:100px;
+    height:12px;
+    top: -92px;
+    left: 70px;
+}
+
+.annuler {
+	
+	position: relative;
+	background-image: url(../images/X.png);
+	background-repeat: no-repeat;
+	top: -85px;
+	left: 0px;
+	height : 24px;
+	width : 89px;
+}
+
+.annuler:active {
+	
+    background:url(../images/Xpetit.png) no-repeat;
+}
+
+.valider {
+	
+	position: relative;
+	background-image: url(../images/V.png);
+	background-repeat: no-repeat;
+	top: -85px;
+	left: 5px;
+	height : 24px;
+	width : 89px;	
+} 
+
+.valider:active {
+	
+    background:url(../images/Vpetit.png) no-repeat;
+ }	
+
+.inscription {
+	
+	color: orange;
+    display : block;
+    position: relative;
+	top: -80px;
+	left: 50px;
+	font-size: 10px;
+	font-style: italic;
+	
+}
+
+.inscription:hover { color: white; }
+	
+.mdp_oublié {
+	
+	
+    color: orange;
+    display : block;
+    position: relative;
+	top: -70px;
+	left: 50px;
+	font-size: 10px;
+	font-style: italic;	
+}
+
+.mdp_oublié:hover { color: white; }
+
+.log {
+	
+	color: white;
+    display : block;
+    position: relative;
+	top: -115px;
+	left: 65px;
+	font-size: 20px;
+	font-style: italic;
+	
+}
+
+.profil {
+	
+	color: orange;
+    display : block;
+    position: relative;
+	top: -95px;
+	left: 40px;
+	font-size: 10px;
+	font-style: italic;
+	
+}
+
+.profil:hover { color: white; }
+	
+.deconnexion {
+	
+	
+    color: orange;
+    display : block;
+    position: relative;
+	top: -110px;
+	left: 90px;
+	font-size: 10px;
+	font-style: italic;	
+}
+
+deconnexion:hover { color: white; }
+  
+
+
+
+#section1 {
+    
+	background-image: url(../images/blindage.jpg);
+	height: 80px;
+}
+
+
+#recherche {
+    position:relative;
+    width:231px;    
+}	
+
+#recherche .champ {
+	
+    background-color: #E1F5A9;
+    width:190px;
+    height:20px;
+    float:left;
+}
+
+.bouton {
+	
+    display:block;
+    width: 40px;
+    height: 21px;
+    float:right;
+}	
+
+
+ 
+ .youtube {
+	 
+    display : block;
+    position: relative;
+	background-image: url(../images/youtube.png);
+	background-repeat: no-repeat;
+	top: 32px;
+	left: 7px;
+	height : 50px;
+	width : 50px;
+}
+
+
+.youtube:hover {
+background-image: url(../images/youtube2.png);
+background-position: center;
+}
+	
+.facebook {
+	
+    display : block;
+    position: relative;
+	background-image: url(../images/facebook.png);
+	background-repeat: no-repeat;
+	top: -18px;
+	left: 65px;
+	height : 50px;
+	width : 50px;	
+}
+
+
+.facebook:hover {
+background-image: url(../images/facebook2.png);
+background-position: center;
+}
+
+.musée{
+	
+    display : block;
+    position: relative;
+	background-image: url(../images/musee.jpg);
+	background-repeat: no-repeat;
+	top: -67px;
+	left: 125px;
+	height : 45px;
+	width : 100px;	
+}
+
+
+.musée:hover {
+background-image: url(../images/musée2.png);
+background-position: center;
+}
+
+
+
+	
+.accueil {
+	
+    display : block;
+    position: relative;
+	background-image: url(../images/accueil.png);
+	background-repeat: no-repeat;
+	top: -110px;
+	left: 280px;
+	height : 39px;
+	width : 224px;	
+}
+
+
+.accueil:hover {
+background-image: url(../images/accueil2.png);
+}
+
+.ww2 {
+	
+    display : block;
+    position: relative;
+	background-image: url(../images/ww2.png);
+	background-repeat: no-repeat;
+	top: -149px;
+	left: 504px;
+	height : 39px;
+	width : 224px;	
+}
+
+
+.ww2:hover {
+background-image: url(../images/ww22.png);
+}
+	
+.actuels {
+	
+    display : block;
+    position: relative;
+	background-image: url(../images/actuels.png);
+	background-repeat: no-repeat;
+	top: -188px;
+	left: 728px;
+	height : 39px;
+	width : 224px;	
+}
+
+
+.actuels:hover {
+background-image: url(../images/actuels2.png);
+}
+
+.photos {
+	
+    display : block;
+    position: relative;
+	background-image: url(../images/photos.png);
+	background-repeat: no-repeat;
+	top: -227px;
+	left: 951px;
+	height : 39px;
+	width : 224px;	
+}
+
+
+.photos:hover {
+background-image: url(../images/photos2.png);
+}
+
+.vidéos {
+	
+        display : block;
+        position: relative;
+	background-image: url(../images/vidéos.png);
+	background-repeat: no-repeat;
+	top: -266px;
+	left: 1175.5px;
+	height : 39px;
+	width : 224px;	
+}
+
+
+.vidéos:hover {
+background-image: url(../images/vidéos2.png);
+}
+
+
+#navigation {
+    
+    
+        background-image: linear-gradient(to right, #e5e696 0%, #d1d360 100%);
+	background-repeat: no-repeat;
+	float: left;
+	height : 560px;
+	width : 15%;
+	font-size: 12px;
+	color: brown;
+	font-family: arial;
+}
+
+#navigation a { color: black;}
+
+#navigation a:hover { color: red; }	
+
+
+#section2 {
+    
+    
+	background: linear-gradient(10deg, rgba(254,252,234,0.5) 0%, rgba(248,236,151,0.5) 46%, rgba(241,218,54,1) 100%);
+	background-repeat: no-repeat;
+        height : 560px;
+        margin-left: 10%;
+	text-align: center;
+	color: #6d4803;
+}
+
+footer {
+   
+	background-image: url(../images/blindage2.jpg);
+        max-width:1400px;
+	height:60px;
+	
+		
+}
+
+.testbdd {
+    display: block;
+    position: absolute;
+	background-image: url(../images/test.png);
+	background-repeat: no-repeat;
+    bottom: -200px;
+	right: -250px;
+	height : 50px;
+	width : 50px;		
+}
+
+
+.testbdd:hover {
+background-image: url(../images/testbdd.png);
+
+}
+
+
+
+#horloge {
+    font-family: modern, monospace;
+    float: left;
+    position:relative;
+    top: 0px;
+    color: orange;
+    left: 40px;
+}
+	
+#maus {
+   
+   float: right;
+   position:relative;
+   top:-225px;
+   right: 37px;
+}
+
+.admin {
+
+        display : block;
+        position: relative;
+	top: -10px;
+	float: left;
+	    
+}
+
+.lien {
+	
+	
+    color: orange;
+  	
+}
+
+.lien:hover { color: white; }
+
+div.centre {
+    position:absolute;
+    left: 45%;
+    top: 45%;
+    width: auto;
+    height: auto;
+    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
